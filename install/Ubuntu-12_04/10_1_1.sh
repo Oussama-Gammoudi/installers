@@ -47,7 +47,8 @@ else
   VER=$(uname -r)
 fi
 echo "Detected : $OS  $VER  $BITS"
-if [ "$OS" = "Ubuntu" ] && [ "$VER" = "12.04" ]; then
+#  && [ "$VER" = "12.04" ]
+if [ "$OS" = "Ubuntu" ]; then
   echo "Ok."
 else
   echo "Sorry, this installer only supports the installation of ZPanel on Ubuntu 12.04."
